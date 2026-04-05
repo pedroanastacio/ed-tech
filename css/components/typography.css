@@ -53,3 +53,11 @@
 .text-slate {
   color: var(--color-slate-900);
 }
+
+.text-highlight {
+  color: var(--color-lime-500);
+}
+
+.text-slate-light {
+  color: var(--color-slate-300);
+}
