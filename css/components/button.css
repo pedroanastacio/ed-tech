@@ -32,8 +32,6 @@
 .btn--secondary {
   background: var(--color-lime-500);
   color: var(--color-slate-950);
-  box-shadow: 0px 0px 20px 0px var(--color-lime-500-alpha);
-  font-weight: 700;
 }
 
 .btn--secondary:hover {
