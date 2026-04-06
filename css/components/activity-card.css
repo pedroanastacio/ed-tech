@@ -1,0 +1,38 @@
+.activity-card {
+  gap: 1.5rem;
+  border: 1px solid var(--color-slate-200);
+  border-radius: 12px;
+}
+
+.activity-card-header {
+  display: flex;
+  gap: 1rem;
+}
+
+.activity-card-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--color-lime-500), transparent 90%);
+}
+
+.activity-card-avatar > svg {
+  width: 18px;
+  height: 16px;
+}
+
+.activity-card-header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.activity-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
