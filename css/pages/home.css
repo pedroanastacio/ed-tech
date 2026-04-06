@@ -45,6 +45,12 @@
   font-weight: 700;
 }
 
+.btn-icon {
+  width: 13px;
+  height: 13px;
+  margin-top: 2.5px;
+}
+
 @media (max-width: 1064px) {
   .home-section {
     grid-template-columns: 1fr;
