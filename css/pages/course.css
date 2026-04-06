@@ -63,8 +63,12 @@
 }
 
 @media (max-width: 768px) {
-  .course-intro-container {
-    padding: 1rem;
+  .course-page {
+    padding: 1rem 0;
+  }
+
+  .course-section-container {
+    padding: 0 1rem;
     gap: 2rem;
   }
 
@@ -78,8 +82,12 @@
 }
 
 @media (max-width: 468px) {
-  .course-intro-container {
-    padding: 0.5rem;
+  .course-page {
+    padding: 0.5rem 0;
+  }
+
+  .course-section-container {
+    padding: 0 0.5rem;
     gap: 1rem;
   }
 
