@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/components/button.css" />
     <link rel="stylesheet" href="css/components/typography.css" />
+    <link rel="stylesheet" href="css/components/highlight-card.css" />
     <link rel="stylesheet" href="css/components/card.css" />
     <link rel="stylesheet" href="css/components/slider.css" />
     <link rel="stylesheet" href="css/pages/course.css" />
@@ -164,6 +165,33 @@
             soluções digitais modernas.
           </p>
         </div>
+
+        <div class="highlight-card-container">
+          <div
+            class="highlight-card"
+            data-id="1"
+            data-content="O HTML é responsável por estruturar o conteúdo das páginas, definindo títulos, textos, imagens e outros elementos."
+          >
+            <div class="highlight-content"></div>
+            <button class="btn highlight-btn">Abrir</button>
+          </div>
+          <div
+            class="highlight-card active"
+            data-id="2"
+            data-content="O CSS é responsável pela aparência, permitindo criar layouts modernos, cores, animações e responsividade."
+          >
+            <div class="highlight-content"></div>
+            <button class="btn highlight-btn">Fechar</button>
+          </div>
+          <div
+            class="highlight-card"
+            data-id="3"
+            data-content="O JavaScript traz interatividade, possibilitando criar funcionalidades dinâmicas e melhorar a experiência do usuário."
+          >
+            <div class="highlight-content"></div>
+            <button class="btn highlight-btn">Abrir</button>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -179,5 +207,6 @@
       </div>
     </footer>
     <script src="js/slider.js" defer></script>
+    <script src="js/highlight-cards.js" defer></script>
   </body>
 </html>

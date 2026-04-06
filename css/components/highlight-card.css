@@ -1,0 +1,100 @@
+.highlight-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.highlight-card {
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  transition: all 0.2s ease;
+}
+
+.highlight-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 165px;
+}
+
+.highlight-card:not(.active) .highlight-content .text {
+  color: var(--color-slate-850);
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+
+.highlight-card:not(.active) {
+  background: var(--color-slate-100);
+}
+
+.highlight-card.active {
+  background: var(--color-slate-950);
+  transform: scale(1.05);
+  border: 1px solid var(--color-slate-600);
+}
+
+.highlight-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.highlight-card.active .highlight-content .text {
+  color: var(--color-slate-250);
+}
+
+.highlight-btn {
+  width: 100%;
+}
+
+.highlight-card:not(.active) .btn {
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  color: var(--color-slate-700);
+}
+
+.highlight-card:not(.active) .btn:hover:not(:disabled) {
+  background: var(--color-slate-950);
+  color: var(--color-white);
+  border-color: var(--color-slate-950);
+}
+
+.highlight-card.active .btn {
+  background: var(--color-slate-950);
+  border: 1px solid var(--color-slate-600);
+  color: var(--color-white);
+}
+
+.highlight-card.active .btn:hover:not(:disabled) {
+  background: var(--color-white);
+  color: var(--color-slate-950);
+  border: 1px solid var(--color-white);
+}
+
+@media (max-width: 768px) {
+  .highlight-card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .highlight-card {
+    padding: 1rem;
+  }
+
+  .highlight-card.active {
+    transform: scale(1.03);
+  }
+}
+
+@media (max-width: 468px) {
+  .highlight-card {
+    padding: 0.5rem;
+  }
+}
