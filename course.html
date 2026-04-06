@@ -325,18 +325,26 @@
           </header>
 
           <textarea
+            id="discursive-textarea"
             name="discursive-answer"
             class="textarea"
             placeholder="Digite sua resposta aqui..."
           ></textarea>
 
           <div class="activity-card-actions">
-            <button class="btn btn--secondary">Responder</button>
-            <button class="btn">Alterar</button>
+            <button id="discursive-submit" class="btn btn--secondary" disabled>
+              Responder
+            </button>
+            <button id="discursive-edit" class="btn" disabled>Alterar</button>
           </div>
 
-          <div class="answer-feedback answer-feedback-correct">
-            <button class="answer-feedback-close" aria-label="Fechar feedback">×</button>
+          <div
+            id="discursive-answer-feedback"
+            class="answer-feedback answer-feedback-correct"
+          >
+            <button class="answer-feedback-close" aria-label="Fechar feedback">
+              ×
+            </button>
             <h6 class="text text-md answer-feedback-correct-title">
               É isso aí!
             </h6>
@@ -363,6 +371,7 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/howler@2.2.4/dist/howler.min.js"></script>
+    <script src="js/discursive-activity.js" defer></script>
     <script src="js/slider.js" defer></script>
     <script src="js/highlight-cards.js" defer></script>
     <script src="js/audio-player.js" defer></script>

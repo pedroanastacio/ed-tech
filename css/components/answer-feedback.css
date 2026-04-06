@@ -8,6 +8,10 @@
   position: relative;
 }
 
+#discursive-answer-feedback {
+  display: none;
+}
+
 .answer-feedback-correct {
   background-color: var(--color-green-100);
   color: var(--color-green-700);
