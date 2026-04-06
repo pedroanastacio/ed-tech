@@ -10,10 +10,11 @@
   gap: 4rem;
   width: 100%;
   max-width: 1024px;
+  padding: 2rem 0;
 }
 
 .course-section-container {
-  padding: 2rem;
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
