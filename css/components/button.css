@@ -39,8 +39,6 @@
 }
 
 .btn--tertiary {
-  height: 42px;
-  padding: 8px 32px;
   background: transparent;
   border: 1px solid var(--color-gray-200);
   color: var(--color-slate-700);
