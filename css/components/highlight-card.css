@@ -92,9 +92,3 @@
     transform: scale(1.03);
   }
 }
-
-@media (max-width: 468px) {
-  .highlight-card {
-    padding: 0.5rem;
-  }
-}

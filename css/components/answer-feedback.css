@@ -52,14 +52,3 @@
 .answer-feedback-incorrect .answer-feedback-close {
   color: color-mix(in srgb, var(--color-yellow-800), transparent 90%);
 }
-
-@media (max-width: 468px) {
-  .answer-feedback {
-    padding: 0.5rem;
-  }
-
-  .answer-feedback-close {
-    top: 8px;
-    right: 8px;
-  }
-}
