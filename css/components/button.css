@@ -1,16 +1,16 @@
 .btn {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  height: 44px;
   padding: 0.625rem 1.5rem;
   border-radius: 4px;
   background: var(--color-slate-950);
   color: var(--color-white);
   border: none;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
   font-family: "Inter", sans-serif;
   transition:
     background 0.2s ease,
