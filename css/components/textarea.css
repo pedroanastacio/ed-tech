@@ -1,0 +1,18 @@
+.textarea {
+  width: 100%;
+  min-height: 160px;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-gray-200);
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--color-slate-900);
+  transition: border 0.2s ease;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  resize: vertical;
+}
+
+.textarea::placeholder {
+  color: var(--color-slate-400);
+}
