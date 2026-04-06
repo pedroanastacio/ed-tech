@@ -34,6 +34,12 @@
   font-weight: 400;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1.25;
+  font-weight: 400;
+}
+
 .text-primary {
   color: var(--color-olive-600);
 }
