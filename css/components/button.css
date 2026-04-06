@@ -32,7 +32,6 @@
 
 .btn--secondary {
   background: var(--color-lime-500);
-  color: var(--color-slate-950);
 }
 
 .btn--secondary:hover:not(:disabled) {
