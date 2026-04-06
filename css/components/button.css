@@ -50,3 +50,17 @@
   color: var(--color-white);
   border-color: var(--color-slate-950);
 }
+
+@media (max-width: 768px) {
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 468px) {
+  .btn {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+  }
+}
