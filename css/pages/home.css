@@ -31,6 +31,10 @@
   align-items: flex-start;
 }
 
+.home-subtitle {
+  color: var(--color-slate-300);
+}
+
 .home-image {
   max-width: 530px;
   margin-top: 20px;
