@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/components/button.css" />
     <link rel="stylesheet" href="css/components/typography.css" />
     <link rel="stylesheet" href="css/components/card.css" />
+    <link rel="stylesheet" href="css/components/slider.css" />
     <link rel="stylesheet" href="css/pages/course.css" />
   </head>
   <body class="course-body">
@@ -66,6 +67,86 @@
             </p>
           </div>
         </div>
+        <div class="slider-container">
+          <div class="slider-wrapper">
+            <div class="slider-track">
+              <div class="slide">
+                <img
+                  src="https://codigofacil.com.br/wp-content/uploads/2024/12/o-que-e-html-imagem.jpg"
+                  alt="HTML"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg"
+                  alt="CSS"
+                  loading="lazy"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="https://velog.velcdn.com/images/mjieun/post/51510091-38c9-4d2e-81f9-df45126135fd/image.png"
+                  alt="JavaScript"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="slider-actions">
+            <button
+              class="slider-btn slider-btn-prev btn btn--tertiary"
+              aria-label="Slide anterior"
+            >
+              <svg
+                width="5"
+                height="7"
+                viewBox="0 0 5 7"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.5 7L0 3.5L3.5 0L4.31667 0.816667L1.63333 3.5L4.31667 6.18333L3.5 7Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+            <div class="slider-dots">
+              <button
+                class="dot active"
+                data-index="0"
+                aria-label="Ir para slide 1"
+              ></button>
+              <button
+                class="dot"
+                data-index="1"
+                aria-label="Ir para slide 2"
+              ></button>
+              <button
+                class="dot"
+                data-index="2"
+                aria-label="Ir para slide 3"
+              ></button>
+            </div>
+            <button
+              class="slider-btn slider-btn-next btn"
+              aria-label="Próximo slide"
+            >
+              <svg
+                width="5"
+                height="7"
+                viewBox="0 0 5 7"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.5 7L0 3.5L3.5 0L4.31667 0.816667L1.63333 3.5L4.31667 6.18333L3.5 7Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -80,5 +161,6 @@
         </p>
       </div>
     </footer>
+    <script src="js/slider.js" defer></script>
   </body>
 </html>
