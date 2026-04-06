@@ -72,22 +72,10 @@
   .home-section {
     padding: 2rem 1.5rem;
   }
-
-  .home-col h1 {
-    font-size: 3rem;
-  }
-
-  .home-col p {
-    font-size: 1rem;
-  }
 }
 
 @media (max-width: 468px) {
   .home-section {
     padding: 1rem 0.75rem;
-  }
-
-  .home-col h1 {
-    font-size: 2.5rem;
   }
 }

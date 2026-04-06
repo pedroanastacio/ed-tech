@@ -67,10 +67,6 @@
     gap: 2rem;
   }
 
-  .course-intro-header h1 {
-    font-size: 2rem;
-  }
-
   .footer {
     padding: 2rem 1rem;
   }
@@ -84,10 +80,6 @@
   .course-intro-container {
     padding: 0.5rem;
     gap: 1rem;
-  }
-
-  .course-intro-header h1 {
-    font-size: 1.5rem;
   }
 
   .footer {
