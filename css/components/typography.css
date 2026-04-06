@@ -34,6 +34,12 @@
   font-weight: 400;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.422;
+  font-weight: 400;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1.25;
@@ -108,6 +114,9 @@
     font-size: 0.875rem;
   }
   .text-md {
+    font-size: 0.75rem;
+  }
+  .text-sm {
     font-size: 0.75rem;
   }
 }
