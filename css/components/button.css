@@ -15,10 +15,11 @@
   transition:
     background 0.2s ease,
     box-shadow 0.2s ease,
-    opacity 0.2s ease;
+    opacity 0.2s ease,
+    border 0.2s ease;
 }
 
-.btn:hover {
+.btn:hover:not(:disabled) {
   background: var(--color-lime-500);
 }
 
@@ -34,7 +35,7 @@
   color: var(--color-slate-950);
 }
 
-.btn--secondary:hover {
+.btn--secondary:hover:not(:disabled) {
   opacity: 0.8;
 }
 
@@ -44,7 +45,7 @@
   color: var(--color-slate-700);
 }
 
-.btn--tertiary:hover {
+.btn--tertiary:hover:not(:disabled) {
   background: var(--color-slate-950);
   color: var(--color-white);
   border-color: var(--color-slate-950);
