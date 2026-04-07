@@ -24,7 +24,7 @@
 }
 
 .highlight-card:not(.active) .highlight-content .text {
-  color: var(--color-slate-850);
+  color: var(--color-slate-800);
   font-weight: 700;
   font-size: 2.25rem;
 }
