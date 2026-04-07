@@ -72,6 +72,10 @@
   color: var(--color-slate-950);
 }
 
+.text-gray {
+  color: var(--color-gray-700);
+}
+
 .text-highlight {
   color: var(--color-lime-500);
 }
