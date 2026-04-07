@@ -14,12 +14,27 @@ Você tem duas opções para visualizar o projeto:
 
 ## Decisões Técnicas
 
+### Stack Principal
+
 - **HTML5** semântico, sem frameworks
 - **CSS puro** (sem Bootstrap, Tailwind)
 - **JavaScript vanilla** (sem React, Vue, Angular)
 - **sessionStorage** para persistência de dados
-- **Componentes nativos** (details/summary para accordion)
-- **Howler.js** - Biblioteca para controle de áudio
+
+### Componentes Nativos
+
+- Uso de elementos HTML semânticos nativos (`<details>`, `<summary>`) para o accordion.
+- **Benefícios:** funcionalidade básica sem JavaScript, acessível por padrão e sem JavaScript adicional.
+- **Trade-offs:** A funcionalidade base (abrir/fechar) funciona sem JS. A animação fluida é um upgrade opcional.
+
+### Howler.js para Áudio
+
+- **Por que não `<audio>` nativo?**: Howler resolve inconsistências entre navegadores e limitações do HTML5 Audio.
+- **Recursos utilizados**:
+  - Modo `html5: true` para streaming de áudio grande sem carregar tudo na memória.
+  - Controle de velocidade (`rate`) e volume via API.
+  - Callbacks para estados (`onplay`, `onpause`, `onend`, `onload`).
+  - Integração com `requestAnimationFrame` para UI fluida do progresso.
 
 ## Estrutura do Projeto
 
