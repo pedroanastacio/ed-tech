@@ -26,19 +26,6 @@
   gap: 0.5rem;
 }
 
-.video-player {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0px 25px 50px -12px #00000040;
-}
-
-.video-player iframe {
-  width: 100%;
-  height: 100%;
-}
-
 .footer {
   width: 100%;
   background-color: var(--color-slate-950);
