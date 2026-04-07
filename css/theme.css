@@ -67,3 +67,7 @@ main {
   white-space: nowrap;
   border: 0;
 }
+
+.justify-text {
+  text-align: justify;
+}
