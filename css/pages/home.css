@@ -31,6 +31,14 @@
   align-items: flex-start;
 }
 
+.home-subtitle-container {
+  display: flex;
+  align-items: center;
+  min-height: 88px;
+  padding-left: 1.5rem;
+  border-left: 1px solid #ffffff1a;
+}
+
 .home-subtitle {
   color: var(--color-slate-300);
 }
@@ -76,5 +84,9 @@
 @media (max-width: 768px) {
   .home-section {
     padding: 2rem 1.5rem;
+  }
+
+  .home-subtitle-container {
+    padding-left: 1rem;
   }
 }
