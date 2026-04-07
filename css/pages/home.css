@@ -29,6 +29,20 @@
   flex-direction: column;
   gap: 2rem;
   align-items: flex-start;
+  position: relative;
+}
+
+.home-title-accent {
+  position: absolute;
+  width: 4px;
+  height: 96px;
+  background: linear-gradient(
+    180deg,
+    var(--color-lime-500) 0%,
+    rgba(118, 185, 0, 0) 100%
+  );
+  left: -30px;
+  top: -20px;
 }
 
 .home-subtitle-container {
@@ -83,6 +97,10 @@
   }
 
   .home-col:last-child {
+    display: none;
+  }
+
+  .home-title-accent {
     display: none;
   }
 }
