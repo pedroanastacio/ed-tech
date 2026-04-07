@@ -60,6 +60,11 @@
   background-repeat: no-repeat;
 }
 
+.alternative-checkbox:focus-visible {
+  outline: 2px solid var(--color-lime-500);
+  outline-offset: 2px;
+}
+
 .alternative--disabled > .alternative-checkbox {
   cursor: not-allowed;
 }
