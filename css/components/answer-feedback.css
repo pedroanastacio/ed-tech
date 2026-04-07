@@ -21,7 +21,7 @@
 
 .answer-feedback-incorrect {
   background-color: var(--color-yellow-100);
-  color: color-mix(in srgb, var(--color-yellow-800), transparent 90%);
+  color: color-mix(in srgb, var(--color-yellow-800), transparent 10%);
 }
 
 .answer-feedback-incorrect .answer-feedback-incorrect-title {
@@ -50,9 +50,11 @@
 }
 
 .answer-feedback-incorrect .answer-feedback-close {
-  color: color-mix(in srgb, var(--color-yellow-800), transparent 90%);
+  color: color-mix(in srgb, var(--color-yellow-800), transparent 10%);
 }
 
-#discursive-answer-feedback {
+#discursive-answer-feedback,
+#objective-correct-answer-feedback,
+#objective-incorrect-answer-feedback {
   display: none;
 }

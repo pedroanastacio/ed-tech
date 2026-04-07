@@ -1,0 +1,74 @@
+.alternative-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.alternative {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--color-slate-200);
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  transition: all 0.2s ease;
+}
+
+.alternative .text {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.alternative:not(.active) {
+  background: var(--color-white);
+  border: 1px solid var(--color-slate-200);
+}
+
+.alternative:not(.active) .text {
+  color: var(--color-slate-700);
+}
+
+.alternative.active {
+  background: var(--color-slate-950);
+  border: 1px solid var(--color-slate-950);
+}
+
+.alternative.active .text {
+  color: var(--color-white);
+}
+
+.alternative-checkbox {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-slate-250);
+  border-radius: 4px;
+  cursor: pointer;
+  appearance: none;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.alternative-checkbox:checked {
+  background-color: var(--color-white);
+  border-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230c0a08'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");
+  background-size: 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.alternative--disabled > .alternative-checkbox {
+  cursor: not-allowed;
+}
+
+.alternative.alternative--disabled:not(.active) {
+  background-color: var(--color-gray-100);
+}
+
+.alternative.alternative--disabled.active {
+  opacity: 0.85;
+}
