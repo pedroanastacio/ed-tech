@@ -237,7 +237,9 @@
                   />
                 </svg>
               </button>
+              <label for="audio-volume" class="sr-only">Ajustar volume</label>
               <input
+                id="audio-volume"
                 type="range"
                 class="audio-volume-slider"
                 min="0"
@@ -245,6 +247,10 @@
                 step="0.1"
                 value="1"
                 aria-label="Volume"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="100"
+                aria-valuetext="100%"
               />
             </div>
 
@@ -311,6 +317,9 @@
             </div>
           </header>
 
+          <label for="discursive-textarea" class="sr-only">
+            Digite sua resposta para a atividade discursiva
+          </label>
           <textarea
             id="discursive-textarea"
             name="discursive-answer"
@@ -371,46 +380,46 @@
           </header>
 
           <div class="alternative-container">
-            <div class="alternative">
+            <label class="alternative">
               <input
                 type="radio"
                 name="alternative"
                 value="a"
                 class="alternative-checkbox"
               />
-              <p class="text text-md">A) Estruturar o conteúdo da página.</p>
-            </div>
-            <div class="alternative">
+              <span class="text text-md">A) Estruturar o conteúdo da página.</span>
+            </label>
+            <label class="alternative">
               <input
                 type="radio"
                 name="alternative"
                 value="b"
                 class="alternative-checkbox"
               />
-              <p class="text text-md">
+              <span class="text text-md">
                 B) Definir a aparência e o layout da página.
-              </p>
-            </div>
-            <div class="alternative">
+              </span>
+            </label>
+            <label class="alternative">
               <input
                 type="radio"
                 name="alternative"
                 value="c"
                 class="alternative-checkbox"
               />
-              <p class="text text-md">C) Definir o comportamento da página.</p>
-            </div>
-            <div class="alternative">
+              <span class="text text-md">C) Definir o comportamento da página.</span>
+            </label>
+            <label class="alternative">
               <input
                 type="radio"
                 name="alternative"
                 value="d"
                 class="alternative-checkbox"
               />
-              <p class="text text-md">
+              <span class="text text-md">
                 D) Gerenciar o banco de dados da aplicação.
-              </p>
-            </div>
+              </span>
+            </label>
           </div>
 
           <div class="activity-card-actions">
