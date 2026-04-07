@@ -27,7 +27,7 @@
   justify-content: center;
   color: var(--color-slate-700);
   transition: color 0.2s ease;
-  border-radius: 50%;
+  border-radius: 4px;
   flex-shrink: 0;
 }
 
