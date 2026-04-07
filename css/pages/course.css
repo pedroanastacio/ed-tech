@@ -71,6 +71,7 @@
 @media (max-width: 768px) {
   .course-page {
     padding: 1rem 0;
+    gap: 2rem;
   }
 
   .course-section-container {
