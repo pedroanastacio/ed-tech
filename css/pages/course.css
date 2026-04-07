@@ -26,6 +26,24 @@
   gap: 0.5rem;
 }
 
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 0 1.5rem;
+  width: 100%;
+  max-width: 896px;
+}
+
+.faq-container .faq-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
 .footer {
   width: 100%;
   background-color: var(--color-slate-950);
@@ -55,6 +73,11 @@
   }
 
   .course-section-container {
+    padding: 0 1rem;
+    gap: 2rem;
+  }
+
+  .faq-container {
     padding: 0 1rem;
     gap: 2rem;
   }
