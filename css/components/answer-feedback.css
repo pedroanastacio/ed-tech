@@ -8,10 +8,6 @@
   position: relative;
 }
 
-#discursive-answer-feedback {
-  display: none;
-}
-
 .answer-feedback-correct {
   background-color: var(--color-green-100);
   color: var(--color-green-700);
@@ -55,4 +51,8 @@
 
 .answer-feedback-incorrect .answer-feedback-close {
   color: color-mix(in srgb, var(--color-yellow-800), transparent 90%);
+}
+
+#discursive-answer-feedback {
+  display: none;
 }
