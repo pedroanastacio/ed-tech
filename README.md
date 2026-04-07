@@ -4,12 +4,13 @@
 
 Você tem duas opções para visualizar o projeto:
 
-1. **Servidor local**:
+1. **Servidor local (Node.js)**:
    - Execute `npx serve .`
    - Acesse: http://localhost:3000
 
-2. **Acesso direto**:
-   - Abra o arquivo `index.html` diretamente no navegador
+2. **Servidor local (Python)**:
+   - Execute `python -m http.server 8000`
+   - Acesse: http://localhost:8000
 
 ## Decisões Técnicas
 
@@ -18,7 +19,7 @@ Você tem duas opções para visualizar o projeto:
 - **JavaScript vanilla** (sem React, Vue, Angular)
 - **sessionStorage** para persistência de dados
 - **Componentes nativos** (details/summary para accordion)
-- **Howler.js** (v2.2.4) - Biblioteca para controle de áudio
+- **Howler.js** - Biblioteca para controle de áudio
 
 ## Estrutura do Projeto
 
@@ -31,18 +32,28 @@ Você tem duas opções para visualizar o projeto:
 │   ├── theme.css           # Variáveis e reset
 │   ├── components/         # Componentes reutilizáveis
 │   │   ├── accordion.css
+│   │   ├── activity-card.css
+│   │   ├── alternative.css
+│   │   ├── answer-feedback.css
 │   │   ├── audio-player.css
 │   │   ├── button.css
 │   │   ├── card.css
-│   │   └── ...
+│   │   ├── highlight-card.css
+│   │   ├── slider.css
+│   │   ├── textarea.css
+│   │   ├── typography.css
+│   │   └── video-player.css
 │   └── pages/         # Estilos específicos de páginas
 │       ├── course.css
 │       └── home.css
 ├── js/                 # Scripts de interação
 │   ├── accordion.js
 │   ├── audio-player.js
+│   ├── discursive-activity.js
+│   ├── highlight-cards.js
+│   ├── objective-activity.js
 │   ├── slider.js
-│   └── ...
+│   └── video-player.js
 └── assets/
     ├── icons/         # SVGs
     └── images/        # Imagens
